@@ -1,0 +1,26 @@
+.heading{
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    font-family: 'Silkscreen', cursive;
+}
+.note{
+    font-size: 20px;
+    color: black;
+    font-family: 'Teko', sans-serif;
+}
+body{
+    background-size: cover;
+}
+canvas{
+    border: 5px solid red;
+    border-radius: 40px;
+    animation-name: Fading;
+    animation-duration: 10s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes Fading {
+    from {box-shadow: 1px 1px 75px red;}
+    to {box-shadow: 1px 1px 75px yellow;}
+}
